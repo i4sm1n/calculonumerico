@@ -1,3 +1,12 @@
+"""
+Observações: 
+- O valor da precisão deve ser inserido na forma decimal
+- A função deve ser inserida de modo que a biblioteca math entenda:
+  potencia: x**(expotente)
+  log: math.log10(x)
+  multiplicação: *
+"""
+
 import math
 
 #input a 
