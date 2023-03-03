@@ -30,7 +30,7 @@ def f(val):
 def compara(val1, val2):
   if val1 * val2 == 0:
     return 0
-  if val1 * val2 < 0:
+  elif val1 * val2 < 0:
     return -1
   else:
     return 1
@@ -49,7 +49,7 @@ else:
       print(f"A raíz é f({ni:.4f})=0")
       break
     
-    if compara(f(a), f(ni)) < 0:
+    elif compara(f(a), f(ni)) < 0:
       b = ni
 
     else:
